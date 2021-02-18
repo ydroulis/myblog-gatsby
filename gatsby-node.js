@@ -27,10 +27,10 @@ exports.createPages = ({ graphql, actions }) => {
 
   return graphql(`
   {
-    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}){
+    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
       edges {
         node {
-          fields{
+          fields {
             slug
           }
           frontmatter {
@@ -41,6 +41,22 @@ exports.createPages = ({ graphql, actions }) => {
             title
           }
           timeToRead
+        }
+        next {
+          frontmatter {
+            title
+          }
+          fields {
+            slug
+          }
+        }
+        previous {
+          frontmatter {
+            title
+          }
+          fields {
+            slug
+          }
         }
       }
     }
@@ -53,7 +69,7 @@ exports.createPages = ({ graphql, actions }) => {
               path: node.fields.slug,
               component: path.resolve('./src/templates/blog-post.jsx'),
               context: {
-                  slug: node.fields.slug
+                  slug: node.fields.slug,
               }
           })
       })
