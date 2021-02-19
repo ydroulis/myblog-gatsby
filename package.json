@@ -14,11 +14,7 @@
     "gatsby-plugin-styled-components": "^3.3.6",
     "gatsby-remark-images": "^3.9.0",
     "gatsby-remark-lazy-load": "^1.0.2",
-<<<<<<< HEAD
     "gatsby-remark-prismjs": "^3.11.0",
-=======
-    "gatsby-remark-prismjs": "^3.13.0",
->>>>>>> 42699eb45080ceaec5683f065d78f6f6cc7179b9
     "gatsby-remark-relative-images": "^0.2.3",
     "gatsby-source-filesystem": "^2.3.13",
     "gatsby-transformer-remark": "^2.8.23",
