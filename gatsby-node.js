@@ -51,21 +51,12 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
         previous {
-<<<<<<< HEAD
           frontmatter {
             title
           }
           fields {
             slug
           }
-=======
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-          }
->>>>>>> 42699eb45080ceaec5683f065d78f6f6cc7179b9
         }
       }
     }
@@ -79,11 +70,7 @@ exports.createPages = ({ graphql, actions }) => {
               component: path.resolve('./src/templates/blog-post.jsx'),
               context: {
                   slug: node.fields.slug,
-<<<<<<< HEAD
                   previouPost: next,
-=======
-                  previousPost: next,
->>>>>>> 42699eb45080ceaec5683f065d78f6f6cc7179b9
                   nextPost: previous
               }
           })
