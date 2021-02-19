@@ -6,7 +6,7 @@ module.exports = {
     author: `@myblog`,
   },
   flags: {
-    THE_FLAG: false
+    THE_FLAG: false,
   },
   plugins: [
     `gatsby-plugin-styled-components`,

@@ -1,6 +1,6 @@
-import React from "react"
-import ReactDisqusComments from "react-disqus-comments"
-import PropTypes from "prop-types"
+import React from "react";
+import ReactDisqusComments from "react-disqus-comments";
+import PropTypes from "prop-types";
 
 import * as S from "./styled"
 
@@ -24,4 +24,4 @@ Comments.propTypes = {
   title: PropTypes.string.isRequired,
 }
 
-export default Comments
+export default Comments;
