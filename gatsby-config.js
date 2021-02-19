@@ -5,6 +5,9 @@ module.exports = {
     description: `A blog about frontend development and other stuff.`,
     author: `@myblog`,
   },
+  flags: {
+    THE_FLAG: false
+  },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
