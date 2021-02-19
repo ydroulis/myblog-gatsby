@@ -1,27 +1,17 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-<<<<<<< HEAD
 import Layout from "../components/Layout";
 import SEO from "../components/seo";
 import RecomendedPosts from "../components/recomendedPosts";
 import Comments from "../components/Comments";
-=======
-import Layout from "../components/Layout"
-import SEO from "../components/seo"
-import RecommendedPosts from "../components/recommendedPosts"
->>>>>>> 42699eb45080ceaec5683f065d78f6f6cc7179b9
 
 import * as S from "../components/Post/styled";
 
 const BlogPost = ({ data, pageContext }) => {
     const post = data.markdownRemark
     const next = pageContext.nextPost;
-<<<<<<< HEAD
     const previous = pageContext. previousPost;
-=======
-    const previous = pageContext.previousPost;
->>>>>>> 42699eb45080ceaec5683f065d78f6f6cc7179b9
 
     return(
         <Layout>
