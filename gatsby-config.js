@@ -51,11 +51,7 @@ module.exports = {
             }
           },
           `gatsby-remark-lazy-load`,
-<<<<<<< HEAD
           `gatsby-remark-prismjs`,
-=======
-          `gatsby-remark-prismjs`
->>>>>>> 42699eb45080ceaec5683f065d78f6f6cc7179b9
         ],
       },
     },
