@@ -1,3 +1,7 @@
+require("dotenv").config()
+
+const queries = require('./src/utils/algolia_queries')
+
 module.exports = {
   siteMetadata: {
     title: `My Blog`,
@@ -6,7 +10,7 @@ module.exports = {
     author: `@myblog`,
   },
   flags: {
-    THE_FLAG: false
+    THE_FLAG: false,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -40,15 +44,15 @@ module.exports = {
           {
             resolve: "gatsby-remark-relative-images",
             options: {
-              name: "uploads"
-            }
+              name: "uploads",
+            },
           },
           {
             resolve: "gatsby-remark-images",
-            options:{
+            options: {
               maxWidth: 960,
-              linkImagesToOriginal: false
-            }
+              linkImagesToOriginal: false,
+            },
           },
           `gatsby-remark-lazy-load`,
           `gatsby-remark-prismjs`,
@@ -57,6 +61,17 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-algolia-search`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
+        queries,
+        chunkSize: 10000,
+        enablePartialUpdates: true,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
