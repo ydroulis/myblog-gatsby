@@ -1,5 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import getThemeColor from '../../utils/getThemeColor'
 
 import Avatar from "../Avatar/index"
 import * as S from "./styled"
@@ -24,7 +25,7 @@ const Profile = () => {
   return (
     // depois temos a renderização do nosso componente com os dados retornados do useStaticQuery
     <S.ProfileWrapper>
-      <S.ProfileLink>
+      <S.ProfileLink paintDrip direction='left' hex={getThemeColor().pd} duration={1} to="/">
         <Avatar />
         <S.ProfileAuthor>
           {title}
