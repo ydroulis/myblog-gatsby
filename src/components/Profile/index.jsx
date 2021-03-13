@@ -25,7 +25,7 @@ const Profile = () => {
   return (
     // depois temos a renderização do nosso componente com os dados retornados do useStaticQuery
     <S.ProfileWrapper>
-      <S.ProfileLink paintDrip direction='left' hex={getThemeColor().pd} duration={1} to="/">
+      <S.ProfileLink paintDrip direction='left' hex={getThemeColor()} duration={1} to="/">
         <Avatar />
         <S.ProfileAuthor>
           {title}

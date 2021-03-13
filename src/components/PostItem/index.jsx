@@ -6,7 +6,7 @@ import getThemeColor from "../../utils/getThemeColor"
 import * as S from "./styled";
 
 const PostItem = ({ slug, background, category, date, timeToRead, title, description }) => (
-  <S.PostItemLink paintDrip direction='right' hex={getThemeColor().cover} duration={1} to={slug}>
+  <S.PostItemLink paintDrip direction='right' hex={getThemeColor()} duration={1} to={slug}>
     <S.PostItemWrapper>
       <S.PostItemTag background={background}>{category}</S.PostItemTag>
       <S.PostItemInfo>

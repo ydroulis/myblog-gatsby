@@ -9,7 +9,7 @@ const RecommendedPosts = ({ next, previous }) => (
       <S.RecommendedLink
         cover
         direction="right"
-        bg={getThemeColor().cover}
+        bg={getThemeColor()}
         duration={1}
         to={previous.fields.slug}
         className="previous"
@@ -23,7 +23,7 @@ const RecommendedPosts = ({ next, previous }) => (
       <S.RecommendedLink
         cover
         direction="left"
-        bg={getThemeColor().cover}
+        bg={getThemeColor()}
         duration={1}
         to={next.fields.slug}
         className="next"

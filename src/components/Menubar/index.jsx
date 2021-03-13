@@ -30,7 +30,7 @@ const Menubar = () => {
         <S.MenubarLink
           paintDrip
           direction="left"
-          hex={getThemeColor().pd}
+          hex={getThemeColor()}
           duration={1}
           to="/"
           title="Voltar para Home"
@@ -42,7 +42,7 @@ const Menubar = () => {
         <S.MenubarLink
           paintDrip
           direction="left"
-          hex={getThemeColor().pd}
+          hex={getThemeColor()}
           duration={1}
           to="/search"
           title="Pesquisar"
