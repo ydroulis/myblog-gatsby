@@ -20,6 +20,7 @@ export const MenubarWrapper = styled.aside`
     width: 100%;
     flex-direction: row;
     bottom: -1px;
+    z-index: 999;
     `}
 `
 
