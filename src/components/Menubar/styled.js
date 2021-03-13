@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import media from 'styled-media-query';
-import { Link } from "gatsby";
+import Anilink from 'gatsby-plugin-transition-link/AniLink';
+
 
 export const MenubarWrapper = styled.aside`
     align-items: center;
@@ -33,7 +34,7 @@ export const MenubarGroup = styled.div`
     `}
 `
 
-export const MenubarLink = styled(Link)`
+export const MenubarLink = styled(Anilink)`
     display: block;
 `
 
