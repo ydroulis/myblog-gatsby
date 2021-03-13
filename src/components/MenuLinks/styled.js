@@ -1,7 +1,15 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 import { Link } from "gatsby";
 
-export const MenuLinksWrapper = styled.nav``
+export const MenuLinksWrapper = styled.nav`
+display: flex;
+
+${media.lessThan("large")`
+position: absolute;
+right: 1rem;
+`}
+`
 
 export const MenuLinksList = styled.ul`
     font-size: 1.2rem;
@@ -14,6 +22,9 @@ export const MenuLinksItem = styled.li`
     .active{
         color: var(--highlight);
     }
+    ${media.lessThan("large")`
+    margin-left: 0.5rem;
+    `}
 `
 
 export const MenuLinksLink = styled(Link)`
