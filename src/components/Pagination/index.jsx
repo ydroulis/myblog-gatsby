@@ -24,7 +24,7 @@ const Pagination = ({
     </p>
     {!isLast && (
       <Anilink cover direction="right" bg={getThemeColor()} duration={1} to={nextPage}>
-        próxiam página →
+        próxima página →
       </Anilink>
     )}
   </S.PaginationWrapper>
