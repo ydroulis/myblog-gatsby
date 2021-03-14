@@ -24,6 +24,10 @@ const Menubar = () => {
     window.__onDisplayChange = () => setDisplay(window.__display)
   }, [])
 
+  const scrollTop = () => {
+    window.scrollTo(0, 0);
+  }
+
   return (
     <S.MenubarWrapper>
       <S.MenubarGroup>
@@ -70,7 +74,7 @@ const Menubar = () => {
         >
           {isListMode ? <Grid /> : <List />}
         </S.MenubarItem>
-        <S.MenubarItem title="Ir para o topo">
+        <S.MenubarItem title="Ir para o topo" onClick={scrollTop}>
           <Arrow />
         </S.MenubarItem>
       </S.MenubarGroup>
