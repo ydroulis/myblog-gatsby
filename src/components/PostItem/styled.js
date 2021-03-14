@@ -55,7 +55,7 @@ export const PostItemTag = styled.div`
     }
 
     ${media.lessThan("large")`
-    border-radius: 0;
+    border-radius: 10px;
     min-height: 0px;
     min-width: 0px;
     padding: 0.1rem .5rem 0.2rem;
