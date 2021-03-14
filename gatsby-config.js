@@ -8,7 +8,7 @@ module.exports = {
     position: `Frontend Developer`,
     description: `A blog about frontend development and other stuff.`,
     author: `@myblog`,
-    siteUrl: `https://myblog.com.br`
+    siteUrl: `https://mydroulisblog.netlify.app/`
   },
   flags: {
     THE_FLAG: false,
