@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from 'styled-media-query'
 import Anilink from "gatsby-plugin-transition-link/AniLink"
 
 export const RecommendedWrapper = styled.section`
@@ -36,4 +37,10 @@ export const RecommendedLink = styled(Anilink)`
     justify-content: flex-end;
   }
 
+  ${media.lessThan("large")`
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  `}
 `
