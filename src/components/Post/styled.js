@@ -1,10 +1,16 @@
 import styled from "styled-components"
+import media from 'styled-media-query'
 
 export const PostHeader = styled.header`
   color: var(--postColor);
   margin: auto;
   max-width: 70rem;
   padding: 5rem 5rem 0;
+
+  ${media.lessThan("large")`
+  margin-top: 2rem;
+  padding: 0; 
+  `}
 `
 
 export const PostTitle = styled.h1`
@@ -12,11 +18,19 @@ export const PostTitle = styled.h1`
   font-weight: 700;
   padding: 0 1.4rem;
   margin: 1rem auto;
+
+  ${media.lessThan("large")`
+  font-size: 2rem;
+  `}
 `
 export const PostDescription = styled.h2`
   font-size: 2rem;
   font-weight: 200;
   padding: 0 1.4rem;
+
+  ${media.lessThan("large")`
+  font-size: 1.3rem;
+  `}
 `
 
 export const PostDate = styled.p`
@@ -185,4 +199,42 @@ export const MainContent = styled.section`
       opacity: 0.8;
     }
   }
+
+  ${media.lessThan("large")`
+  padding: 0;
+  margin-top: 1rem;
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  ul,
+  ol,
+  .text-align-last,
+  iframe,
+  .button-post {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-size: 2.1rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  h4 {
+    font-size: 1.4rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+  `}
 `
