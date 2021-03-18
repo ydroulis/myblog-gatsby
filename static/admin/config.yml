@@ -1,0 +1,32 @@
+backend:
+  name: github
+  repo: ydroulis/myblog-gatsby
+  branch: master
+  site_domain: https://mydroulisblog.netlify.app/
+
+publish_mode: editorial_workflow
+media_folder: "static/assets/img"
+public_folder: "assets/img"
+
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: 'YYYY-MM-DD hh:mm:ss'}
+      - {label: "image", name: "thumbnail", widget: "image"}
+      - {label: "Category", name: "category", widget: "select", options: [
+        "jessy", "memo", "dev", "light", "feat"
+      ]}
+      - {label: "Background", name: "background", widget: "select", options: [
+        { label: "Jessy", value: "#235ea6" },
+        { label: "Memo", value: "#712dc4" },
+        { label: "Dev", value: "#c21b1b" },
+        { label: "Light", value: "#dec32c" },
+        { label: "Feat", value: "#40ad71" },      
+      ]}
+      - {label: "Body", name: "body", widget: "markdown"}
