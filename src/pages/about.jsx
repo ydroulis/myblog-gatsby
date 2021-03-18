@@ -17,23 +17,13 @@ const AboutPage = () => (
       <Foto />
       <h1>Sobre mim</h1>
       <p>
-        Meu nome é Willian Justen de Vasconcellos, nasci em Petrópolis/RJ e sou
-        instrutor na Udemy, além de ser um nômade digital e tirar algumas fotos
-        por onde vou.
+        Meu nome é Yuri Lombardi Androulis, nasci em São Paulo/SP e sou Desenvolvedor Frontend. Comecei a entrar no mundo do desenvolvimento pra poder cumprir um objetivo, me casar, mas acabei me apaixonando pela area.
       </p>
       <p>
-        Já passei por empresas como Toptal, Huge, Globo.com, Queremos e outras
-        mais. Cursei Tecnologia da Informação na Faeterj-Petrópolis no ano de
-        2014, mas curiosamente, essa não foi minha primeira faculdade, eu também
-        fiz Química Industrial na Uff. Sim, você leu certo, eu realmente fiz
-        Química… E por que eu trabalho com web agora? Ah… porque web é incrível,
-        a facilidade em aprender cada dia mais e ainda poder ajudar um grande
-        número de pessoas me deixa feliz e realizado todos os dias.
+        Trabalho atualmente como Dev na empresa Badico Cloud onde foi meu primeiro emprego de Desenvolvedor Frontend. Cursei técnico em telecomunicações no Senai onde tive primeiro contato com programação, tenho certificado do Senac para introdução a Java e também sou certificado pela caelum em html, css, javaScript e React. 
       </p>
       <p>
-        Eu amo trabalhar em equipe e sou bem comunicativo. No meu tempo livre,
-        gosto de ensinar meus amigos sobre alguma coisa que aprendi, acho que
-        por isso nasceu esse blog.
+        Eu amo ver filmes, animes, seriados e ouvir musicas. Gosto muito também de jogar videogame, desenhar, tocar piano, passear ao ar livre e viajar. Espero que curtam cada nova experiencia que eu compartilhar com vocês por meio deste blog
       </p>
       <h1>Contato</h1>
       <p>
