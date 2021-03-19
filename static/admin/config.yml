@@ -2,7 +2,7 @@ backend:
   name: github
   repo: ydroulis/myblog-gatsby
   branch: master
-  site_domain: https://mydroulisblog.netlify.app/
+  site_domain: mydroulisblog.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
