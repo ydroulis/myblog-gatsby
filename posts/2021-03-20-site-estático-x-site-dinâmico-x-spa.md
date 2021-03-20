@@ -6,7 +6,7 @@ thumbnail: assets/img/site-estatico-ou-dinamico.png
 category: dev
 background: "#c21b1b"
 ---
-Será que algo novo é sempre necessariamente algo moderno? Recentemente, ao estudar conceitos como sites estáticos, sites dinâmicos e SPA (Single Page Application) me deparei com essa questão e gostaria de compartilhar quais foram minhas conclusões, mas primeiro e vamos entender oque significa cada um desses conceitos.
+Será que algo novo é sempre necessariamente algo moderno? Recentemente, ao estudar conceitos como sites estáticos, sites dinâmicos e SPA (Single Page Application) me deparei com essa questão e gostaria de compartilhar quais foram minhas conclusões, mas primeiro vamos entender o que significa cada um desses conceitos.
 
 ## Um resumo da história do desenvolvimento web
 
