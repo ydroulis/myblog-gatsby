@@ -2,7 +2,7 @@
 title: Site estático x site dinâmico x SPA
 description: Um breve resumo sobre a definição de sites dinâmicos, estáticos e SPA.
 date: 2021-03-20 01:17:16
-thumbnail: images/site-estatico-ou-dinamico.jpg
+thumbnail: assets/img/site-estatico-ou-dinamico.png
 category: dev
 background: "#c21b1b"
 ---
