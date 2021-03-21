@@ -2,11 +2,11 @@
 title: Site estático x site dinâmico x SPA
 description: Um breve resumo sobre a definição de sites dinâmicos, estáticos e SPA.
 date: 2021-03-20 01:17:16
-thumbnail: /assets/img/site-estatico-ou-dinamico.png
+thumbnail: /assets/img/site-estatico-ou-dinamico.jpg
 category: dev
 background: "#c21b1b"
 ---
-![Preview](/assets/img/site-estatico-ou-dinamico.png)
+![Preview](/assets/img/site-estatico-ou-dinamico.jpg)
 
 Será que algo novo é sempre necessariamente algo moderno? Recentemente, ao estudar conceitos como sites estáticos, sites dinâmicos e SPA (Single Page Application) me deparei com essa questão e gostaria de compartilhar quais foram minhas conclusões, mas primeiro vamos entender o que significa cada um desses conceitos.
 
