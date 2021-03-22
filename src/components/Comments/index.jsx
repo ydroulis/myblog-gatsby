@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import * as S from "./styled"
 
 const Comments = ({ url, title }) => {
-  const completeURL = `https://ydroulis.com.br${url}`
+  const completeURL = `https://mydroulisblog.netlify.app/${url}`
   return (
     <S.CommentsWrapper>
       <S.CommentsTitle>Comentários</S.CommentsTitle>
