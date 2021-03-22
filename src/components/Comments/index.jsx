@@ -10,7 +10,7 @@ const Comments = ({ url, title }) => {
     <S.CommentsWrapper>
       <S.CommentsTitle>Comentários</S.CommentsTitle>
       <ReactDisqusComments
-        shortname="https-mydroulisblog-netlify-app"
+        shortname="ydroulis"
         identifier={completeURL}
         title={title}
         url={completeURL}
