@@ -20,7 +20,7 @@ const AboutPage = () => (
         Meu nome é Yuri Lombardi Androulis, nasci em São Paulo/SP e sou Desenvolvedor Frontend. Comecei a entrar no mundo do desenvolvimento pra poder cumprir um objetivo, me casar. Mas acabei me apaixonando demais pela area.
       </p>
       <p>
-        Trabalho atualmente como Dev na empresa Badico Cloud onde foi meu primeiro emprego de Desenvolvedor Frontend. Cursei técnico em telecomunicações no Senai onde tive primeiro contato com programação, tenho certificado do Senac para introdução a Java e também sou certificado pela caelum em html, css, javaScript e React. 
+        Trabalho atualmente como Dev na empresa Badico Cloud onde foi meu primeiro emprego de Desenvolvedor Frontend. Cursei técnico em telecomunicações no Senai onde tive primeiro contato com programação, tenho certificado do Senac para introdução a Java e também sou certificado pela Caelum em html, css, javaScript e React. 
       </p>
       <p>
         Eu amo ver filmes, animes, seriados e ouvir musicas. Gosto muito também de jogar videogame, desenhar, tocar piano, passear ao ar livre e viajar e espero que curtam cada nova experiencia que eu compartilhar com vocês por meio deste blog.
