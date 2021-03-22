@@ -16,15 +16,12 @@ const BlogList = props => {
   const isLast = currentPage === numPages
   const prevPage = currentPage - 1 === 1 ? `/` : `/page/${currentPage - 1}`
   const nextPage = `/page/${currentPage + 1}`
-  const site = props.data.site.siteMetadata
-  
-  console.log("site", site)
+
   return (
     <Layout>
       <SEO
-       title={site.title}
-       description={site.description}
-       image="../../static/assets/img/site-estatico-ou-dinamico.png"/>
+       title="Home"
+        description={}/>
       <S.ListWrapper>
         {postList.map(
           ({
@@ -60,14 +57,6 @@ const BlogList = props => {
 
 export const query = graphql`
   query PostList($skip: Int!, $limit: Int!) {
-    site {
-      siteMetadata {
-        description
-        position
-        siteUrl
-        title
-      }
-    }
     allMarkdownRemark(
       sort: { fields: frontmatter___date, order: DESC }
       limit: $limit
